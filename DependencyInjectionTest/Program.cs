@@ -7,7 +7,7 @@
       DIContainer.AddInstantiationType(typeof(SpaceShip));
 
       // TASK: Modify DIContainer so you can add interface as instantiation type
-      //DIContainer.AddInstantiationType(typeof(Gun));
+      //DIContainer.AddInstantiationType(typeof(IGun));
 
       var spaceShip = DIContainer.Instantiate<SpaceShip>();
       System.Console.WriteLine(spaceShip.Engine.Power);

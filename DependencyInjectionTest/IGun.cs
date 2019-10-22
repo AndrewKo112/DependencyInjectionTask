@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace DependencyInjectionTest {
-  interface Gun {
+  interface IGun {
     void Shoot();
   }
 }
